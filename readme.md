@@ -16,11 +16,21 @@ Then it hit me. It's not my laziness stopping me advancing through my Next list.
 If you're really committed to using a tool to capture all your open loops, then your Next list in Things will normally contain between 30 and 150 items. That's just too much to scroll through. Yes, you can filter this list, but still you get a lot of "junk", i.e. tasks that you cannot act upon, since they depend on a previous task to be finished.
  
 ### How I use it
+
+You can launch the .scpt files from anywhere, but usually one places these files into ~/Library/Scripts, so you can access them from the scripts menu on your OS X menubar. It's also possible to launch script via system wide keyboard shortcuts.
  
- I've set up a recurring task with [Lingon](https://www.peterborgapps.com/lingon/) to launch this script every 20 minutes. I have an old Mac Mini that's running all day and periodically cleans up my Next list.
+For maximum geek pleasure, I've set up a recurring task with [Lingon](https://www.peterborgapps.com/lingon/) to launch this script every 20 minutes. I have an old Mac Mini that's running all day and periodically cleans up my Next list.
  In the end, I have much cleaner list of my task:
 
 ![Screenshot of cleaned up Next list on iPhone](http://815b1b87b51011a7a029-623c55fb68acb92f1f433c6448bed244.r60.cf3.rackcdn.com/github/things-scripts/queued-tasks.jpg)
+
+### Check if todo is active script
+
+The _check if todo is active.scpt_ file is the subroutine used in the main queue task.scpt file. I just put it there so that you can test the script before unleashing it on your entire Things library. Create a project in Things called _MyTestProject_, launch this script and see what happens. If you're satisfied you can launch the main _queue tasks.scpt_ file.
+
+### Parallel tasks
+
+I will probably add a _"skip projects tagged with"_ feature, where you can add a special tag, e.g. _"parallel"_ and the script will skip that project.
 
 ## Clean Things Today
 
