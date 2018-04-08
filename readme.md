@@ -1,6 +1,24 @@
 # Scripts for Things by Cultured Code 
 
-While Cultured Code is busy making the new version of Things, here are some scripts that will make it more aligned with a GTD workflow.
+## Clean Things Today list
+
+Just a simple script to move all tasks from the Todays list to Anytime so each day I start with a fresh list. This forces me to do the daily reviews instead.
+
+### Updated for Things 3!
+
+The Clean Things Today script now works with Things 3. 
+
+## Scheduling the script
+
+I'm using [Lingon App](https://www.peterborgapps.com/lingon/) to schedule the running of my scripts.
+
+The great thing is that they even run when my Mac sleeps ([ power nap? ](https://support.apple.com/en-us/HT204032)), and I have a clean Today's list in the morning on iPhone! 
+
+---
+
+### Warning!
+
+The scripts below have not yet been tested with Things 3!
 
 ## Queue Tasks
 
@@ -31,20 +49,6 @@ The _check if todo is active.scpt_ file is the subroutine used in the main queue
 ### Parallel tasks
 
 I will probably add a _"skip projects tagged with"_ feature, where you can add a special tag, e.g. _"parallel"_ and the script will skip that project.
-
-## Clean Things Today
-
-Just a simple script to move all tasks from the Todays list to Next so each day I start with a fresh list. It works for me.
-
-### Updated for Things 3!
-
-The Clean Things Today script now works with Things 3. 
-
-## Scheduling the script
-
-I'm using [Lingon App](https://www.peterborgapps.com/lingon/) to schedule the running of my scripts.
-
-The great thing is that they even run when my Mac sleeps ([ power nap? ](https://support.apple.com/en-us/HT204032)), and I have a clean Today's list in the morning on iPhone! 
 
 ## Note on JXA vs. AppleScript
 
