@@ -36,6 +36,16 @@ I will probably add a _"skip projects tagged with"_ feature, where you can add a
 
 Just a simple script to move all tasks from the Todays list to Next so each day I start with a fresh list. It works for me.
 
+### Updated for Things 3!
+
+The Clean Things Today script now works with Things 3. 
+
+## Scheduling the script
+
+I'm using [Lingon App](https://www.peterborgapps.com/lingon/) to schedule the running of my scripts.
+
+The great thing is that they even run when my Mac sleeps ([ power nap? ](https://support.apple.com/en-us/HT204032)), and I have a clean Today's list in the morning on iPhone! 
+
 ## Note on JXA vs. AppleScript
 
 I'm a JavaScript guy. Still, I wouldn't recommend trying to script apps with JXA. Just too buggy and there's zero speed benefit (might even be slower if you're not using the built in filtering methods.).
